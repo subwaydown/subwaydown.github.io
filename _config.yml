@@ -1,7 +1,7 @@
 baseurl: /subwaydown.github.io
 theme: jekyll-theme-slate
 
-blog_theme: light # Or use dark
+blog_theme: light # Or dark
 
 assets:
   compress:
@@ -16,3 +16,10 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _vendor/
+	
+gems:
+  - jekyll-assets
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+permalink: posts/:slug
